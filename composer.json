@@ -1,0 +1,19 @@
+{
+    "name": "linusx/coin-balances",
+    "description": "Record and display coin balances.",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Bill Van Pelt",
+            "email": "linusx@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.3",
+        "vlucas/phpdotenv": "^2.5",
+        "twig/twig": "^2.5"
+    },
+    "autoload": {
+        "psr-4": {"Coins\\": "src/"}
+    }
+}
